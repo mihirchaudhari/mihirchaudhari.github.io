@@ -44,5 +44,7 @@ plugins:
 
 # Collections
 collections:
-  - projects
-  - links
+  projects:
+    output: true
+  links:
+    output: false

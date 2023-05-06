@@ -9,21 +9,24 @@ nav {
     width: 64px;
     height: 100vh;
     left: -64px;
-    top: -32px;
+    top: 0;
     position: absolute;
     writing-mode: vertical-lr;
     display: flex;
     flex-direction: row-reverse;
     box-shadow: 0 1px 3px rgba(0,0,0,.25);
-    background: rgba(255,255,255,.15);
+    background: rgba(255,255,255,.25);
     backdrop-filter: blur(8px);
-    padding-bottom: 32px;
     position: fixed;
     z-index: 1;
 
     li {
       display: flex;
       align-items: center;
+
+      &:first-child {
+        margin-bottom: 32px;
+      }
 
       a {
         text-decoration: none;

@@ -1,15 +1,16 @@
 ---
 layout: default
+title: "Mihir's Projects"
+nav_title: "- Projects"
 ---
-{% for project in site.projects %}
+{% for project in site.projects reversed %}
 <div class="project">
   <div class="project-img">
     <div class="project-img-background" style="background-image:url({{project.thumb}})"></div>
     <div class="project-img-background-black"></div>
   </div>
   <div class="project-info">
-    <p class="project-title">{{project.title}}</p>
-    <hr>
+    <a href="{{project.url}}"><p class="project-title">{{project.title}}</p></a>
     <p class="project-subtitle">{{project.subtitle}}</p>
   </div>
   {% if project.copyright %}
@@ -18,3 +19,5 @@ layout: default
   {% endif %}
 </div>
 {% endfor %}
+
+<p>A white dot in the bottom right indicates unoriginal content was used in the project.</p>

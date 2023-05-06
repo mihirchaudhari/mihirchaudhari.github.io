@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<p class="project-back">< <a href="/projects">Back to projects</a></p>
+
+<div class="project-header">
+  <div class="project-header-blur" style="background-image:url({{page.thumb}})"></div>
+  <div class="project-header-black"></div>
+  <img src="{{page.thumb}}">
+</div>
+
+<h1 class="post-title">{{page.title}}</h1>
+
+<div class="project-content">
+{{content}}
+</div>
+
+<script type="text/javascript">
+  var imgs = document.getElementsByClassName('project-content')[0].getElementsByTagName('img');
+  for (var i = 0; i < imgs.length; ++i) {
+    var img = imgs[i];
+    var wrapper = document.createElement('div');
+    wrapper.classList.add('img');
+    var parent = img.parentNode;
+    parent.replaceChild(wrapper, img);
+    wrapper.appendChild(img);
+  }
+</script>

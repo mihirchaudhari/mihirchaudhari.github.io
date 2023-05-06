@@ -3,8 +3,8 @@ footer {
   color: #fff;
   display: flex;
   justify-content: center;
-  display: block;
   padding: 16px;
+  width: calc(100% - 32px);
 
   p {
     margin: 0;

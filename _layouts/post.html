@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<p class="post-back">< <a href="/blog">Back to blog</a></p>
+
+<div class="post-header">
+  <div class="post-header-blur" style="background-image:url({{page.thumb}})"></div>
+  <div class="post-header-black"></div>
+  <img src="{{page.thumb}}">
+</div>
+
+<h1 class="post-title">{{page.title}}</h1>
+<p class="post-date">{{page.date | date: "%B %-d, %Y" }}</p>
+
+<div class="post-content">
+{{content}}
+</div>
+
+<script type="text/javascript">
+  var imgs = document.getElementsByClassName('post-content')[0].getElementsByTagName('img');
+  for (var i = 0; i < imgs.length; ++i) {
+    var img = imgs[i];
+    var wrapper = document.createElement('div');
+    wrapper.classList.add('img');
+    var parent = img.parentNode;
+    parent.replaceChild(wrapper, img);
+    wrapper.appendChild(img);
+  }
+</script>
