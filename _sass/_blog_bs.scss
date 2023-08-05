@@ -1,0 +1,17 @@
+.posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+
+  .post-card {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    transition: 0.2s;
+    bottom: 0;
+
+    &:hover {
+      bottom: 4px;
+    }
+  }
+}

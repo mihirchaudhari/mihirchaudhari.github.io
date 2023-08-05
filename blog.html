@@ -6,21 +6,26 @@ nav_title: "- Blog"
 
 <p>Mafia Love break-down posts coming soon!</p>
 
-{% for post in site.posts %}
-<div class="post-card">
-  <div class="post-card-img">
-    <div class="post-card-img-background" style="background-image:url({{post.thumb}})"></div>
-    <div class="post-card-img-background-black"></div>
-  </div>
-  <div class="post-card-info">
-    <div class="post-card-title">
-      <a href="{{post.url}}"><p>{{post.title}}</p></a>
+<div class="posts">
+  {% for post in site.posts %}
+  <div class="post-card">
+    <div class="post-card-img">
+      <div class="post-card-img-background" style="background-image:url({{post.thumb}})"></div>
+      <div class="post-card-img-background-black"></div>
     </div>
-    <div class="post-card-tags">
-      {% for tag in post.categories %}
-      <div class="post-card-tag"><p>{{tag}}</p></div>
-      {% endfor %}
+    <div class="post-card-info">
+      <div class="post-card-date">
+        <p>{{post.date | date: "%B %-d, %Y" }}</p>
+      </div>
+      <div class="post-card-title">
+        <a href="{{post.url}}"><p>{{post.title}}</p></a>
+      </div>
+      <div class="post-card-tags">
+        {% for tag in post.categories %}
+        <div class="post-card-tag"><p>{{tag}}</p></div>
+        {% endfor %}
+      </div>
     </div>
   </div>
+  {% endfor %}
 </div>
-{% endfor %}

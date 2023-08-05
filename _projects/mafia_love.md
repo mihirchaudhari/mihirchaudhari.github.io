@@ -28,7 +28,8 @@ Here is a link to a video of the project during round 1 of the competition
 
 Here is a video of the project during super finals
 
-(To be added later)
+<a target="_blank" href="https://youtu.be/Tndd8hVGafk">YouTube</a>
 
-There will be various blog posts breaking down how the game was made and works, but those are coming soon.
-I still need to upload all the code to GitHub.
+Here is all the code for the game
+
+<a target="_blank" href ="https://github.com/MisterMjirES/mafia_love">GitHub</a>

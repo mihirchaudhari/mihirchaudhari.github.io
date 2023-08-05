@@ -6,15 +6,17 @@ nav_title: "- About"
 
 <p>I'm just a guy. I do things, sometimes.</p>
 
-{% for link in site.links %}
-<div class="link">
-  <div class="link-img">
-    <div class="link-img-background" style="background-image:url({{link.img}})"></div>
+<div class="links">
+  {% for link in site.links %}
+  <div class="link">
+    <div class="link-img">
+      <div class="link-img-background" style="background-image:url({{link.img}})"></div>
+    </div>
+    <div class="link-info">
+      <a target="_blank" href="{{link.link}}"><p class="link-title">{{link.name}}</p></a>
+      <hr>
+      <p class="link-subtitle">{{link.desc}}</p>
+    </div>
   </div>
-  <div class="link-info">
-    <a target="_blank" href="{{link.link}}"><p class="link-title">{{link.name}}</p></a>
-    <hr>
-    <p class="link-subtitle">{{link.desc}}</p>
-  </div>
+  {% endfor %}
 </div>
-{% endfor %}

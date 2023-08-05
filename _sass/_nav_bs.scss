@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+
+  .nav-mobile-header {
+    .hamburger {
+      display: none;
+    }
+
+    .nav-title {
+      margin-left: 16px;
+
+      .extra {
+        display: none;
+      }
+    }
+  }
+
+  ul {
+    margin-left: 16px;
+    position: relative;
+    writing-mode: horizontal-tb;
+    background: none;
+    box-shadow: none;
+    backdrop-filter: none;
+    height: 64px;
+    width: auto;
+    left: 0;
+    flex-direction: row;
+    transition: none;
+
+    li:first-child {
+      margin: 0;
+    }
+
+    li a {
+      transform: none;
+      transition: 0.3s;
+      transition: transform none;
+    }
+
+    li a:hover {
+      color: #33a5ff;
+    }
+  }
+}
