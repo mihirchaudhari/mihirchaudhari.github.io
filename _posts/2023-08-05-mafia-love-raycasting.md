@@ -82,7 +82,7 @@ Here are some pictures showing the symmetry:
 </div>
 
 Here is the function that "normalizes" thetas and gives you a quadrant.
-```
+```c
 uint8_t mm_convert_theta(uint16_t *theta)
 {
 	uint8_t data;
@@ -144,7 +144,7 @@ seperate how the world rendering and enemy rendering work.
 
 A map looks just like this:
 
-```
+```c
 const uint8_t circle[] = {
  1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
  1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
