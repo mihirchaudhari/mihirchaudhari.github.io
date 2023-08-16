@@ -26,4 +26,14 @@ layout: default
     parent.replaceChild(wrapper, img);
     wrapper.appendChild(img);
   }
+
+  var vids = document.getElementsByClassName('post-content')[0].getElementsByTagName('video');
+  for (var i = 0; i < vids.length; ++i) {
+    var vid = vids[i];
+    var wrapper = document.createElement('div');
+    wrapper.classList.add('video');
+    var parent = vid.parentNode;
+    parent.replaceChild(wrapper, vid);
+    wrapper.appendChild(vid);
+  }
 </script>

@@ -408,6 +408,10 @@ And there you have it, what was for me the hardest part of all this code. I skip
 flipping of enemies because I think it would make my head hurt trying to remember what that part of the code does.
 There is just a lot of keeping track of the sign of things because I only used positive, unsigned numbers.
 
+I started simple with the enemies. At first they were just black squares.
+
+![enemy](/projects/mafia_love/enemy_test.jpg)
+
 ### Combat
 
 I am not going to discuss the combat in great detail, it is really not at all complicated. There is just a lot of
@@ -441,3 +445,19 @@ drawn, so maybe you can fix it! Aren't exercises left to the reader fun?
 ## Other Remarks
 
 This took some time to think through. A lot of head hurting moments. Overall it was pretty cool.
+
+The key thing to the math and stuff is always use positive numbers and note the reduced domain of the trig
+functions.
+
+Here are some glitches.
+
+<div class="img-group">
+<img src="/projects/mafia_love/enemy_test_error.jpg">
+<img src="/projects/mafia_love/help_mcqueen.jpg">
+</div>
+
+Finally, here is one scene from the game
+
+<video controls>
+  <source src="/projects/mafia_love/spinning_moyai.mp4" type="video/mp4">
+</video>
