@@ -20,7 +20,10 @@ This project utilizes:
 - Programming with the TM4C123 microcontroller
 - UART communication
 
-![PCB](/projects/mafia_love/mafia_love_pcb.jpg)
+<div class="img-group">
+<img src="/projects/mafia_love/pcb_on.jpg">
+<img src="/projects/mafia_love/mafia_love_pcb.jpg">
+</div>
 
 Here is a link to a video of the project during round 1 of the competition
 

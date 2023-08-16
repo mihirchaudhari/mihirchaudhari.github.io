@@ -392,7 +392,7 @@ is why there is a <a target="_blank" href="https://github.com/MisterMjirES/mafia
 to draw all the strips, knowing that in this edge case maybe all the strips won't be drawn. This could also try
 and draw an enemy that isn't visible at all, but since there aren't that many enemies, this is okay.
 
-One last thing which is unique from drawing walls is the z-buffer. When we calculate the wall distnaces, we
+One last thing which is unique from drawing walls is the z-buffer. When we calculate the wall distances, we
 had to store the distances in this z-buffer. This is the wish.com version of a z-buffer in something like
 OpenGL, because it stores the distance for the entire vertical column, not every pixel. This leads to a weird
 display problem were the transparent part of an enemy/bullet can cover up something behind it. First, to draw
@@ -431,6 +431,12 @@ Here are some pictures of the debugger while running.
 <img src="/projects/mafia_love/debug_3.png">
 <img src="/projects/mafia_love/debug_4.png">
 </div>
+
+<a target="_blank" href="https://github.com/MisterMjirFunStuff/mafia-love-debug">Code</a>
+
+This debug project doesn't have enemies, I yolo'ed that directly on the embedded system code. By the way, we
+are using Keil as our IDE. However, there are still problems with the raycasting! Sometimes a random strip is
+drawn, so maybe you can fix it! Aren't exercises left to the reader fun?
 
 ## Other Remarks
 
