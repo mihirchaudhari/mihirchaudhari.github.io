@@ -2,15 +2,27 @@
   <!-- meta -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- social meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.url }}" />
+  {% if page.thumb %}
+    <meta property="og:image" content="https://mihirchaudhari.github.io{{ page.thumb }}" />
+  {% else %}
+    <meta property="og:image" content="https://mihirchaudhari.github.io/assets/img/majaa_makad.png" />
+  {% endif %}
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+  {% endif %}
+  <!-- title -->
+  {% if page.title %}
+    <title>{{ page.title }}</title>
+    <meta property="og:title" content="{{ page.title }}" />
+  {% else %}
+    <title>Mihir's Website</title>
+    <meta property="og:title" content="Mihir's Website" />
+  {% endif %}
   <!-- js -->
   <script src="/assets/scripts.js" type="text/javascript"></script>
-  <!--
-  <script
-    src="https://code.jquery.com/jquery-3.6.4.min.js"
-    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
-    crossorigin="anonymous">
-  </script>
-  -->
   <!-- css -->
   <link type="text/css" rel="stylesheet" href="/assets/css/main.css">
   <link type="text/css" rel="stylesheet" href="/assets/css/bs.css" media="screen and (min-width: {{ site.data.devices['ms'].size }})">
@@ -26,14 +38,4 @@
   <meta name="theme-color" content="#ffffff">
   <!-- seo stuff -->
   <link rel="canonical" href="{{ page.url }}">
-  <!-- title -->
-  {% if page.title %}
-    <title>{{ page.title }}</title>
-  {% else %}
-    <title>Mihir's Website</title>
-  {% endif %}
-<!-- metadata -->
-{% if page.description %}
-  <meta name="description" content="{{ page.description }}">
-{% endif %}
 </head>
