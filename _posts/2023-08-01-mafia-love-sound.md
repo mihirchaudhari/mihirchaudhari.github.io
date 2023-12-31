@@ -3,7 +3,7 @@ layout: post
 title: "Mafia Love: Sound"
 date: 2023-08-01 12:21:00 -0500
 categories: Mafia-Love Embedded
-thumb: "/projects/mafia_love/speaker.png"
+thumb: "/projects/mafia_love/speaker.webp"
 ---
 
 ## Breifly, How Sound is Generated

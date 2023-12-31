@@ -3,7 +3,7 @@ layout: post
 title: "Mafia Love: Raycasting"
 date: 2023-08-05 17:04:00 -0500
 categories: Mafia-Love Embedded
-thumb: "/projects/mafia_love/raycasting.png"
+thumb: "/projects/mafia_love/raycasting.webp"
 ---
 
 This will probably be the most viewed post of the breakdown (if there's even anyone who reads this).

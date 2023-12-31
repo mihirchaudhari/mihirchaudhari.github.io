@@ -3,7 +3,7 @@ layout: post
 title: "Mafia Love: PCB"
 date: 2023-08-05 11:47:00 -0500
 categories: Mafia-Love Embedded
-thumb: "/projects/mafia_love/mafia_love_pcb.jpg"
+thumb: "/projects/mafia_love/mafia_love_pcb.webp"
 ---
 
 We had a whole PCB camp where people learned how to make PCBs. I decided not to go to that and do it myself. What

@@ -3,7 +3,7 @@ layout: post
 title: "Mafia Love: Display"
 date: 2023-08-01 12:02:00 -0500
 categories: Mafia-Love Embedded
-thumb: "/projects/mafia_love/adafruit_display.jpg"
+thumb: "/projects/mafia_love/adafruit_display.webp"
 ---
 
 ## Our Display

@@ -3,7 +3,7 @@ layout: post
 title: "Mafia Love: Audio Amplification"
 date: 2023-08-01 23:21:00 -0500
 categories: Mafia-Love Circuits
-thumb: "/projects/mafia_love/amplifier.png"
+thumb: "/projects/mafia_love/amplifier.webp"
 ---
 
 This post is an example of how to NOT make an audio amplifier.
