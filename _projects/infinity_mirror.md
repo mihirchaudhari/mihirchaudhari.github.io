@@ -1,7 +1,7 @@
 ---
 title: "Infinity Mirror"
 subtitle: "TIW Build Night"
-thumb: "/projects/infinity_mirror/infinity_mirror.jpg"
+thumb: "/projects/infinity_mirror/infinity_mirror.webp"
 copyright: false
 date: "2023-11-03 00:00:00 -0500"
 layout: project

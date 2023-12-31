@@ -1,7 +1,7 @@
 ---
 title: "Sound Sign"
 subtitle: "Makeathon 2022"
-thumb: "/projects/sound_sign/sound_sign.png"
+thumb: "/projects/sound_sign/sound_sign.webp"
 copyright: false
 date: "2022-10-21 00:00:00 -0500"
 layout: project

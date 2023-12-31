@@ -19,7 +19,7 @@ speakers, we could have something pretty cool.
 
 Here is the circuit diagram.
 
-![Circuit Diagram](/projects/mafia_love/amplifier_circuit.png)
+![Circuit Diagram](/projects/mafia_love/amplifier_circuit.webp)
 
 There is a 10 Kohm slide pot(entiometer) which serves as volume control. The 120 ohm resistors serve as a 60 ohm
 resistor to limit the current (we found out that reducing this resistance leads to greater volumes, but hotter

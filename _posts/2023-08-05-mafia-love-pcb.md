@@ -25,13 +25,13 @@ files, but the design is bad so you should make your own, if you're interested.
 Some of these schematic parts are not included with KiCad. I luckily didn't get a virus when procuring them.
 
 <div class="img-group">
-<img src="/projects/mafia_love/schematic_1.png">
-<img src="/projects/mafia_love/schematic_2.png">
-<img src="/projects/mafia_love/schematic_3.png">
-<img src="/projects/mafia_love/schematic_4.png">
-<img src="/projects/mafia_love/schematic_5.png">
-<img src="/projects/mafia_love/schematic_6.png">
-<img src="/projects/mafia_love/schematic_7.png">
+<img src="/projects/mafia_love/schematic_1.webp">
+<img src="/projects/mafia_love/schematic_2.webp">
+<img src="/projects/mafia_love/schematic_3.webp">
+<img src="/projects/mafia_love/schematic_4.webp">
+<img src="/projects/mafia_love/schematic_5.webp">
+<img src="/projects/mafia_love/schematic_6.webp">
+<img src="/projects/mafia_love/schematic_7.webp">
 </div>
 
 From left to right, top to bottom, these are
@@ -58,11 +58,11 @@ This process is pretty annoying. They'll make AI automate it eventually, it'll b
 So many right angles, traces are so close to each other, there are so many vias. ☠️
 
 <div class="img-group">
-<img src="/projects/mafia_love/layout_1.png">
-<img src="/projects/mafia_love/layout_2.png">
-<img src="/projects/mafia_love/layout_3.png">
-<img src="/projects/mafia_love/layout_4.png">
-<img src="/projects/mafia_love/layout_5.png">
+<img src="/projects/mafia_love/layout_1.webp">
+<img src="/projects/mafia_love/layout_2.webp">
+<img src="/projects/mafia_love/layout_3.webp">
+<img src="/projects/mafia_love/layout_4.webp">
+<img src="/projects/mafia_love/layout_5.webp">
 </div>
 
 This is basically just a few pictures taken while working on it, I'm not even sure if the last picture is the final

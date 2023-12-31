@@ -25,11 +25,11 @@ first, but that's just copied magic code honestly.
 When you start dealing with moving graphics, you might encounter flickering. See the two images below for a rough
 explanation of why it happens.
 
-![Unfinished Picture](/projects/mafia_love/ex_unfinished_pic.png)
+![Unfinished Picture](/projects/mafia_love/ex_unfinished_pic.webp)
 
 What could this picture be. I think it's a bowling ball or coconut.
 
-![Finished Picture](/projects/mafia_love/ex_finished_pic.png)
+![Finished Picture](/projects/mafia_love/ex_finished_pic.webp)
 
 This is what the finished picture is. Turns out, it was your reaction to why flickering happens!
 

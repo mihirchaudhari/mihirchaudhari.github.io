@@ -20,7 +20,7 @@ more precise values you can get).
 
 Say you had audio data which looks like this:
 
-![Audio data](/projects/mafia_love/audio_data.png)
+![Audio data](/projects/mafia_love/audio_data.webp)
 
 The x-axis is time and the y-axis could be anything, but its a magntiude kind of value (you can think of it as
 a voltage, and for these purposes it probably will be). With the DAC, we can add up the voltages to get a pretty

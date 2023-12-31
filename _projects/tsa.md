@@ -1,7 +1,7 @@
 ---
 title: "Time to Steal Artifacts"
 subtitle: "Technology Student Association Video Game Design Competition"
-thumb: "/projects/tsa/tsa_title.png"
+thumb: "/projects/tsa/tsa_title.webp"
 copyright: false
 date: "2021-08-01 00:00:00 -0500"
 layout: project

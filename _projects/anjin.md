@@ -1,7 +1,7 @@
 ---
 title: "anjin"
 subtitle: "Game engine"
-thumb: "/projects/anjin/anjin.png"
+thumb: "/projects/anjin/anjin.webp"
 copyright: false
 date: "2023-12-07 00:00:00 -0500"
 layout: project

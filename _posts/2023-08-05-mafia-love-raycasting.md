@@ -76,9 +76,9 @@ other functions.
 Here are some pictures showing the symmetry:
 
 <div class="img-group">
-<img src="/projects/mafia_love/sin_symmetry.png">
-<img src="/projects/mafia_love/sec_symmetry.png">
-<img src="/projects/mafia_love/tan_symmetry.png">
+<img src="/projects/mafia_love/sin_symmetry.webp">
+<img src="/projects/mafia_love/sec_symmetry.webp">
+<img src="/projects/mafia_love/tan_symmetry.webp">
 </div>
 
 Here is the function that "normalizes" thetas and gives you a quadrant.
@@ -104,7 +104,7 @@ in ```data```. The lower bit is x and the higher bit is y. If the bit is one, it
 positive. It's a little funky but it made it easier for me when I started traversing the rays. That first ```if```
 statement is worth explaining. It will branch on quadrants 2 and 4, and a visual will help explain this.
 
-![theta conversion problem](/projects/mafia_love/theta_conversion.png)
+![theta conversion problem](/projects/mafia_love/theta_conversion.webp)
 
 The sine of A and B should be the same, but they are clearly not in the picture above. This conversion
 will solve this problem.
@@ -218,7 +218,7 @@ drawing enemies.
 Also you may be wondering why do we need to just draw one vertical line and not the whole tile. It's possible
 for one tile to have different height, see the image below.
 
-![visual](/projects/mafia_love/one_tile_multiple_heights.png)
+![visual](/projects/mafia_love/one_tile_multiple_heights.webp)
 
 Also each ray is corresponding to one x coordinate, so it just works out this way.
 
@@ -230,7 +230,7 @@ Luckily the parameters are documented well enough this time.
 
 First I need to explain what ri and rj are.
 
-![A diagram](/projects/mafia_love/ij.png)
+![A diagram](/projects/mafia_love/ij.webp)
 
 i goes in the x direction, and represents the vertical parts of the walls.
 
@@ -243,15 +243,15 @@ to the wall. There is just one more important thing this function does and it's 
 the following visual.
 
 <div class="img-group">
-<img src="/projects/mafia_love/distance_error.png">
-<img src="/projects/mafia_love/visual_error.png">
+<img src="/projects/mafia_love/distance_error.webp">
+<img src="/projects/mafia_love/visual_error.webp">
 </div>
 
 This fisheye effect occurs because the outer angles have a further distance than the inner angles. When we look
 at a wall, this doesn't happen, and this effect just looks weird. It turns out you just fix this by multiplying
 the distance with the cosine of the difference of the the ray angle and player angle.
 
-![Correction derivation](/projects/mafia_love/correction_derivation.png)
+![Correction derivation](/projects/mafia_love/correction_derivation.webp)
 
 Cosine is adjacent over hypotenuse. Adjacent is the corrected distance, and the hypotenuse is the wrong distance,
 so it works out. It's easy to see why this works when you are looking exactly up, down, left, or right. I haven't
@@ -274,7 +274,7 @@ about either case, what is up with this 'strange' multiplication? It has to do w
 
 Let's begin with multiplying two distances together. Remembering how the 8:8 integers work, we get this
 
-![Distance multiplication](/projects/mafia_love/distance_multiplication.png)
+![Distance multiplication](/projects/mafia_love/distance_multiplication.webp)
 
 You may be able to figure out why a shift 8 is needed, but first I should talk about the cast to a uint32.
 A uint16 x uint16 cannot be stored in a uint16 without losing information, it basically makes the multiplication
@@ -308,7 +308,7 @@ range of these two functions is \[0, 1\). Eight bits will always be wasted, so w
 little more precise. The sine table actually stores 0:16 integers, they are 100% the fractional part of the
 integer. That means when we multiply a sin/cos output by a distance, it is like below:
 
-![Sine multiplication](/projects/mafia_love/sin_multiplication.png)
+![Sine multiplication](/projects/mafia_love/sin_multiplication.webp)
 
 A bitshift of what number will get us the correct result? That's right, 16. From what I've seen people
 struggle with fixed point, so maybe read this a few more times. Work out some problems. Take a break. There will
@@ -349,17 +349,17 @@ positions, you know the position of the enemy so you just calculate its distance
 
 Look at this scene:
 
-![Difficult to draw scene](/projects/mafia_love/hard_enemy_scene.png)
+![Difficult to draw scene](/projects/mafia_love/hard_enemy_scene.webp)
 
 Where would you even begin trying this? However, this is where I pulled out the "high IQ" move of just making
 it simplier. Try this scene.
 
-![Easy enemy scene](/projects/mafia_love/easy_enemy_scene.png)
+![Easy enemy scene](/projects/mafia_love/easy_enemy_scene.webp)
 
 There is so much simplification we can do. Removing all the enemies to the left of the player is easy, we just
 don't draw them. There's another trick we do which will help us out.
 
-![Simplified enemy scene](/projects/mafia_love/enemy_simplified.png)
+![Simplified enemy scene](/projects/mafia_love/enemy_simplified.webp)
 
 In this form, it's very easy to figure out what to draw. We will look at the enemy's position to know if it's
 in the "view" or not. The hard part is applying transforms to put everything into this simple form. Also, the
@@ -410,7 +410,7 @@ There is just a lot of keeping track of the sign of things because I only used p
 
 I started simple with the enemies. At first they were just black squares.
 
-![enemy](/projects/mafia_love/enemy_test.jpg)
+![enemy](/projects/mafia_love/enemy_test.webp)
 
 ### Combat
 
@@ -430,10 +430,10 @@ Modular design is super important when you code, this could be an example of why
 Here are some pictures of the debugger while running.
 
 <div class="img-group">
-<img src="/projects/mafia_love/debug_1.png">
-<img src="/projects/mafia_love/debug_2.png">
-<img src="/projects/mafia_love/debug_3.png">
-<img src="/projects/mafia_love/debug_4.png">
+<img src="/projects/mafia_love/debug_1.webp">
+<img src="/projects/mafia_love/debug_2.webp">
+<img src="/projects/mafia_love/debug_3.webp">
+<img src="/projects/mafia_love/debug_4.webp">
 </div>
 
 <a target="_blank" href="https://github.com/MisterMjirFunStuff/mafia-love-debug">Code</a>
@@ -452,8 +452,8 @@ functions.
 Here are some glitches.
 
 <div class="img-group">
-<img src="/projects/mafia_love/enemy_test_error.jpg">
-<img src="/projects/mafia_love/help_mcqueen.jpg">
+<img src="/projects/mafia_love/enemy_test_error.webp">
+<img src="/projects/mafia_love/help_mcqueen.webp">
 </div>
 
 Finally, here is one scene from the game

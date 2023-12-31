@@ -1,7 +1,7 @@
 ---
 title: "Mafia Love"
 subtitle: "ECE 319K Game Design Competition"
-thumb: "/projects/mafia_love/mafia_love_title.png"
+thumb: "/projects/mafia_love/mafia_love_title.webp"
 copyright: true
 date: "2023-04-01 00:00:00 -0500"
 layout: project
@@ -21,8 +21,8 @@ This project utilizes:
 - UART communication
 
 <div class="img-group">
-<img src="/projects/mafia_love/pcb_on.jpg">
-<img src="/projects/mafia_love/mafia_love_pcb.jpg">
+<img src="/projects/mafia_love/pcb_on.webp">
+<img src="/projects/mafia_love/mafia_love_pcb.webp">
 </div>
 
 Here is a link to a video of the project during round 1 of the competition

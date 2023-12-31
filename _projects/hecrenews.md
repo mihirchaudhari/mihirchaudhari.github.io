@@ -1,7 +1,7 @@
 ---
 title: "Hecrenews"
 subtitle: "News website"
-thumb: "/projects/hecrenews/hecrenews.png"
+thumb: "/projects/hecrenews/hecrenews.webp"
 copyright: false
 date: "2020-04-09 00:00:00 -0500"
 layout: project
