@@ -7,6 +7,7 @@ footer {
   flex-direction: column;
   padding: 32px;
   width: calc(100% - 64px);
+  box-shadow: 0 -3px 9px rgba(0,0,0,.25);
 
   .copyright {
     margin: 0;
