@@ -11,6 +11,8 @@ to save the world with the power of love!
 
 This game was made for the video game design compeition in UT's ECE 319K course, Introduction to Embedded Systems. It is a first person shooter which uses raycasting.
 
+Note that some content in this project is IP of others, but the gaming experience is authentic!
+
 This project utilizes:
 - PCB design
 - PCB soldering, fixing

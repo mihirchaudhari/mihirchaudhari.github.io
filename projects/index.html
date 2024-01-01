@@ -2,6 +2,7 @@
 layout: default
 title: "Mihir's Projects"
 nav_title: "- Projects"
+description: "Projects Mihir has worked on. These are the really cool things."
 ---
 <div class="projects">
   {% for project in site.projects reversed %}
@@ -14,12 +15,6 @@ nav_title: "- Projects"
       <a href="{{project.url}}"><p class="project-title">{{project.title}}</p></a>
       <p class="project-subtitle">{{project.subtitle}}</p>
     </div>
-    {% if project.copyright %}
-    <div class="project-copyright">
-    </div>
-    {% endif %}
   </div>
   {% endfor %}
 </div>
-
-<p>A white dot in the bottom right indicates unoriginal content was used in the project.</p>
