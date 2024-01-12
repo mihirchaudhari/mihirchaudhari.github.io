@@ -11,11 +11,15 @@ description: "Information about Mihir and some links to Mihir content beyond thi
 <div class="links">
   {% for link in site.links %}
   <div class="link">
+    <div class="link-back-img">
+      <div class="img" style="background-image:url({{link.img}})"></div>
+      <div class="black"></div>
+    </div>
     <div class="link-img">
       <div class="link-img-background" style="background-image:url({{link.img}})"></div>
     </div>
     <div class="link-info">
-      <a target="_blank" href="{{link.link}}"><p class="link-title">{{link.name}}</p></a>
+      <a target="_blank" href="{{link.link}}"><p class="link-title">{{link.name}} &#x21E8;</p></a>
       <hr>
       <p class="link-subtitle">{{link.desc}}</p>
     </div>
