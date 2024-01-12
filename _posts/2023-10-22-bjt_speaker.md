@@ -2,7 +2,7 @@
 layout: post
 title: "BJT Speaker"
 date: 2024-07-21 12:54:00 -0500
-categories: Analog
+categories: Circuits
 thumb: "/assets/img/majaa_makad.png"
 ---
 
