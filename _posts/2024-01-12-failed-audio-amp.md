@@ -19,13 +19,13 @@ I finally ended up with this.
 
 ![schematic](/assets/img/misc/failed_audio_amp/failed_audio_amp_schematic.webp)
 
+At least I think, the final version may have been a little different from this.
+
 One fatal mistake I made was directly soldering this onto a perfboard, instead of testing this out on a breadboard.
 I was also using a perfboard for the first time so I didn't really know how it worked, lol. Now I think I know how
 to use it better. At the end of soldering, the bottom of the audio amp looked like this:
 
 ![bottom](/assets/img/misc/failed_audio_amp/failed_audio_amp_bottom.webp)
-
-At least I think, the final version may have been a little different from this.
 
 So I plugged it into my computer, connected my aux to aux cable, and was met with disappointment. It didn't work.
 Actually one of the transistors started heating up way too much so I had to disconnect everything quickly before
