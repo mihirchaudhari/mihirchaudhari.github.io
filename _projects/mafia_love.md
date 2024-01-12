@@ -29,11 +29,11 @@ This project utilizes:
 
 Here is a link to a video of the project during round 1 of the competition
 
-<a target="_blank" href="https://youtu.be/tt1Ob6QPF8w">YouTube</a>
+<a target="_blank" href="https://youtu.be/ueTUBeebRmg">YouTube</a>
 
 Here is a video of the project during super finals
 
-<a target="_blank" href="https://youtu.be/Tndd8hVGafk">YouTube</a>
+<a target="_blank" href="https://youtu.be/x__sMXx-X5I">YouTube</a>
 
 Here is all the code for the game
 
