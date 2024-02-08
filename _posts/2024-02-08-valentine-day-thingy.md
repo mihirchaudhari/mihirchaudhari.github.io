@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Valentine's Day Predictor"
-date: 2024-02-08 11:26:00 -0500
+date: 2024-02-08 2:04:00 -0500
 categories: Meme
-thumb: "/assets/img/misc/failed_audio_amp/failed_audio_amp_top.webp"
+thumb: "/assets/img/misc/heart.webp"
 ---
 
 Ever wondered how many choclates you will be getting on Valentine's day? Wonder no more, as my Valentine's Day Predictor can calculate how many choclates you will get at any given year! (I made this in literally an hour)
