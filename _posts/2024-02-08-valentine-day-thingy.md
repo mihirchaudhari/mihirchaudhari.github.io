@@ -17,35 +17,34 @@ randomness.
 
 The code is pretty simple
 
-```
+```js
 function shah362(str) {
-        let mod = 362;
-        let sum = 0;
+  let mod = 362;
+  let sum = 0;
 
-        for (let i = 0; i < str.length; ++i) {
-          charv = str[i].charCodeAt();
-          if (charv < 60) charv = charv + 30;
-          sum += Math.log(Math.exp(charv)) / (1 + Math.cos(charv)) * Math.exp(charv + i);
-        }
+  for (let i = 0; i < str.length; ++i) {
+    charv = str[i].charCodeAt();
+    if (charv < 60) charv = charv + 30;
+    sum += Math.log(Math.exp(charv)) / (1 + Math.cos(charv)) * Math.exp(charv + i);
+  }
 
-        return sum % mod;
-      }
+  return sum % mod;
+}
 
-      function ily(x) {
-        let n = 10;
-        let babu = 10;
+function ily(x) {
+  let n = 10;
+  let babu = 10;
 
-        let sum = 0;
+  let sum = 0;
 
-        for (let i = 0; i < n; ++i) {
-          sum += (n - i) * Math.sin((i + 1) * x);
-        }
+  for (let i = 0; i < n; ++i) {
+    sum += (n - i) * Math.sin((i + 1) * x);
+  }
 
-        sum = sum * sum;
+  sum = sum * sum;
 
-        return Math.ceil(sum);
-      }
-
+  return Math.ceil(sum);
+}
 ```
 
 ## Hashing algorithm
