@@ -66,5 +66,6 @@ like.
 
 ## Have fun
 
-I also think I misspelled predictor on the final version.
+I think I misspelled predictor on the final version.
 
+Also the thumbnail image is from Pexels.

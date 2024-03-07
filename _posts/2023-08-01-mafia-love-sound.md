@@ -6,7 +6,7 @@ categories: Mafia-Love Embedded
 thumb: "/projects/mafia_love/speaker.webp"
 ---
 
-## Breifly, How Sound is Generated
+## Briefly, How Sound is Generated
 
 Sound can be captured in a wave, and we hear sound because the air transmits sound waves which are picked up
 by our ears. If we can create waves (the audio data), we can feed that into a speaker which will vibrate the
