@@ -38,3 +38,17 @@ Here is a video of the project during super finals
 Here is all the code for the game
 
 <a target="_blank" href ="https://github.com/MisterMjirES/mafia_love">GitHub</a>
+
+# Play it today!
+[Find it on my blog](https://mihirchaudhari.github.io/blog/2024/03/16/mafia-love-ports.html)
+
+# Learn more about the development
+[Display](https://mihirchaudhari.github.io/blog/2023/08/01/mafia-love-display.html)
+
+[Sound](https://mihirchaudhari.github.io/blog/2023/08/01/mafia-love-sound.html)
+
+[Audio Amplification](https://mihirchaudhari.github.io/blog/2023/08/02/mafia-love-audio-amplification.html)
+
+[PCB](https://mihirchaudhari.github.io/blog/2023/08/05/mafia-love-pcb.html)
+
+[Raycasting](https://mihirchaudhari.github.io/blog/2023/08/05/mafia-love-raycasting.html)
