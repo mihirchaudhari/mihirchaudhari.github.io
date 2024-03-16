@@ -39,10 +39,10 @@ Here is all the code for the game
 
 <a target="_blank" href ="https://github.com/MisterMjirES/mafia_love">GitHub</a>
 
-# Play it today!
+## Play it today!
 [Find it on my blog](https://mihirchaudhari.github.io/blog/2024/03/16/mafia-love-ports.html)
 
-# Learn more about the development
+## Learn more about the development
 [Display](https://mihirchaudhari.github.io/blog/2023/08/01/mafia-love-display.html)
 
 [Sound](https://mihirchaudhari.github.io/blog/2023/08/01/mafia-love-sound.html)

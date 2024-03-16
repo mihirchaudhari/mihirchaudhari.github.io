@@ -13,7 +13,7 @@ Windows port. I tried to make a web port but there are some problems with it, in
 the audio not working at all. If I ever come back to this I might debug it, but there is a low chance of that
 happening, but at least the Windows port works pretty good!
 
-# How to play
+## How to play
 
 <a target="_blank" href="https://mihirchaudhari.github.io/mafia_love/">Web port</a>
 
@@ -26,7 +26,7 @@ Additionally you can enter spanish mode by pressing the down arrow on the title 
 
 Enjoy!
 
-# How porting worked
+## How porting worked
 Most of the game's code is untouched. The real code changes were with the hardware interfacing.
 
 The one pure software code change was the state system. anjin's state system and Mafia Love's are slightly
