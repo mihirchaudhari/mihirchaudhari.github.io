@@ -1,0 +1,21 @@
+.music-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+  
+    .music {
+      width: 100%;
+      margin: 0;
+  
+      transition: 0.2s;
+      bottom: 0;
+  
+      &:hover {
+        bottom: 4px;
+      }
+  
+      &-info {
+        min-height: 25vh;
+      }
+    }
+  }

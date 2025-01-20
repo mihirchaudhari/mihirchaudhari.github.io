@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Mihir's Music"
+title: "Mihir's Music Stuff"
 nav_title: "- Music"
 description: "Information about Mihir's Music"
 ---
@@ -11,16 +11,38 @@ description: "Information about Mihir's Music"
 <h2>Texas SOUnD</h2>
 <p>2022-2025</p>
 <p>Alternative percussion, very fun. Here are some show recordings:</p>
-<ul>
-    <li><a target="_blank" href="https://youtu.be/BoWCKGO0OpI?si=Ba3MZrKYhaazmNKQ">Island Overture</a></li>
-    <li><a target="_blank" href="https://youtu.be/IgJBe6S5BAs?si=RUezqa3T_kxwyJ20">Beyond the Console</a></li>
-    <li><a target="_blank" href="https://youtu.be/MlMZdz9b9MQ?si=8BY74kqCrleWsbcY">Night on the 40</a></li>
-    <li><a target="_blank" href="https://youtu.be/-qhi1jBKZsQ?si=8zIkQeiUSfmoVXpz">A Space Journey</a></li>
-</ul>
+<div class="music-container">
+    {% for music in site.music reversed %}
+    {% if music.category == "txsound" %}
+    <div class="music">
+      <div class="music-img">
+        <div class="music-img-background" style="background-image:url({{music.img}})"></div>
+        <div class="music-img-background-black"></div>
+      </div>
+      <div class="music-info">
+        <a target="_blank" href="{{music.mlink}}"><p class="music-title">{{music.name}}</p></a>
+        <p class="music-subtitle">{{music.subtitle}}</p>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
 <h2>Coppell Percussion</h2>
 <p>2018-2022</p>
 <p>I marched bass drum. Here are some drumline show recordings:</p>
-<ul>
-    <li><a target="_blank" href="https://www.youtube.com/watch?v=CNnh_163aEk">Bird's Requiem</a></li>
-    <li><a target="_blank" href="https://www.youtube.com/watch?v=Zd91dBrXNKs">Attrå</a></li>
-</ul>
+<div class="music-container">
+    {% for music in site.music %}
+    {% if music.category == "coppell" %}
+    <div class="music">
+      <div class="music-img">
+        <div class="music-img-background" style="background-image:url({{music.img}})"></div>
+        <div class="music-img-background-black"></div>
+      </div>
+      <div class="music-info">
+        <a target="_blank" href="{{music.mlink}}"><p class="music-title">{{music.name}}</p></a>
+        <p class="music-subtitle">{{music.subtitle}}</p>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
